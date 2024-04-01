@@ -12,6 +12,14 @@
 	 Status: Finished
 </h4>
 
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#how-it-works">How it works</a> •
+ <a href="#tech-stack">Tech Stack</a> •
+ <a href="#author">Author</a>
+</p>
+
 ## About
 
 <p align="justify">Node.js project with live weather API data from <a href="https://openweathermap.org">OpenWeatherMap</a> built for <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web Development Bootcamp</a>.</p>
@@ -32,6 +40,9 @@
 
 ## How it works
 
+1. <a href="#clone-this-repository">Clone this repository</a>
+2. <a href="#running-the-back-end">Run the back-end server</a>
+
 ### Pre-requisites
 
 Before you begin, you will need to have the following tools installed on your
@@ -44,28 +55,30 @@ machine:
 In addition, you might also want an editor to work with the code, like
 [VS Code](https://code.visualstudio.com/).
 
-#### Clone this repository
-
-```bash
-$ git clone https://github.com/alexbraga/weather-project.git
-```
-
-#### Running the Back-end
-
-```bash
-
-# Go to the app folder
-$ cd weather-project
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ node app.js
-
-# The server will start at port 3000
+### Clone this repository
 
 ```
+git clone https://github.com/alexbraga/weather-project.git
+```
+
+### Running the Back-end
+
+Go to the app folder
+```
+cd weather-project
+```
+
+Install the dependencies
+```
+npm install
+```
+
+Run the application in development mode
+```
+node app.js
+```
+
+The server will start at port `3000`
 
 ---
 
